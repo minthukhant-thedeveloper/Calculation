@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:showDividers="middle"
+            android:divider="@drawable/vertical_divider"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/blue"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Type 1"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:layout_column="0"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:text="Option"/>
+                    
+                    <TextView
+                        android:id="@+id/type1_option"
+                        android:paddingTop="10dp"
+                        android:layout_column="1"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+                    
+                    
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:layout_column="0"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:text="Result"/>
+
+                    <TextView
+                        android:id="@+id/type1_result"
+                        android:paddingTop="10dp"
+                        android:layout_column="1"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:layout_column="0"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:text="Remark"/>
+
+                    <TextView
+                        android:id="@+id/type1_remark"
+                        android:paddingTop="10dp"
+                        android:layout_column="1"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+
+                </TableRow>
+                
+
+            </TableLayout>
+
+        </LinearLayout>
+        
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:showDividers="middle"
+            android:divider="@drawable/vertical_divider"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/blue"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Type 2"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:layout_column="0"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:text="Option"/>
+
+                    <TextView
+                        android:id="@+id/type2_option"
+                        android:paddingTop="10dp"
+                        android:layout_column="1"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:layout_column="0"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:text="Result"/>
+
+                    <TextView
+                        android:id="@+id/type2_result"
+                        android:paddingTop="10dp"
+                        android:layout_column="1"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:layout_column="0"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:text="Remark"/>
+
+                    <TextView
+                        android:id="@+id/type2_remark"
+                        android:paddingTop="10dp"
+                        android:layout_column="1"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+
+                </TableRow>
+
+
+            </TableLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

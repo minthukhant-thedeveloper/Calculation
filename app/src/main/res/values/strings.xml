@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">YYY Calculation</string>
+
+    <string-array name="options">
+        <item>BS</item>
+        <item>FS</item>
+    </string-array>
+
+    <string name="up_hair">Up Hair</string>
+    <string name="x_hair">X Hair</string>
+    <string name="low_hair">Low Hair</string>
+    <string name="check">Check</string>
+    <string name="remark">Remark</string>
+
+</resources>
